@@ -1,12 +1,12 @@
 <?php
 /**
  * Plugin Name:       Functions
- * Plugin URI:        https://soymipagina.com
+ * Plugin URI:        https://soymipagina.com/
  * Description:       Funciones
  * Version:           1.0.0
  * Requires at least: 5.2
  * Requires PHP:      7.2
- * Author:            Soy Mi Pagina
+ * Author:            Soy Mi Pagina, S.A.
  * Author URI:        https://soymipagina.com
  * License:           GPL v2 or later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
@@ -39,4 +39,3 @@ function zoom_effect_remover() {
     
     add_action( 'wp_head', 'zoom_effect_remover' );
     add_action( 'admin_head', 'zoom_effect_remover' );
-
